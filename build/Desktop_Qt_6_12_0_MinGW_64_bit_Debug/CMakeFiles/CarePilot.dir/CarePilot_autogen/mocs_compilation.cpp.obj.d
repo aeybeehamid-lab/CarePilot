@@ -415,4 +415,8 @@ CMakeFiles/CarePilot.dir/CarePilot_autogen/mocs_compilation.cpp.obj: \
  C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CarePilot_autogen\DMHXEJ42XS/moc_PatientPanel.cpp \
  C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h \
  C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CarePilot_autogen\DMHXEJ42XS/moc_QueuePanel.cpp \
- C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h \
+ C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CarePilot_autogen\DMHXEJ42XS/moc_ReportPanel.cpp \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.h \
+ C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CarePilot_autogen\DMHXEJ42XS/moc_SearchSortPanel.cpp \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.h

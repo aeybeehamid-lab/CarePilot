@@ -417,6 +417,18 @@
 			null
 		],
 		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.h",
+			"Mu",
+			"DMHXEJ42XS/moc_ReportPanel.cpp",
+			null
+		],
+		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.h",
+			"Mu",
+			"DMHXEJ42XS/moc_SearchSortPanel.cpp",
+			null
+		],
+		[
 			"C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointable.h",
 			"Mu",
 			"NLOY5YBGEN/moc_Appointable.cpp",
@@ -598,6 +610,16 @@
 			null
 		],
 		[ "C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp", "Mu", null ],
+		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.cpp",
+			"Mu",
+			null
+		],
 		[ "C:/Users/Abdulhamid/Documents/SCAMPS/main.cpp", "Mu", null ],
 		[
 			"C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointment.cpp",

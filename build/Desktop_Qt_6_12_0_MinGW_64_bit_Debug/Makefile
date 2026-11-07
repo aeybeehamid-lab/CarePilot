@@ -419,6 +419,54 @@ gui/QueuePanel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.s
 .PHONY : gui/QueuePanel.cpp.s
 
+gui/ReportPanel.obj: gui/ReportPanel.cpp.obj
+.PHONY : gui/ReportPanel.obj
+
+# target to build an object file
+gui/ReportPanel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj
+.PHONY : gui/ReportPanel.cpp.obj
+
+gui/ReportPanel.i: gui/ReportPanel.cpp.i
+.PHONY : gui/ReportPanel.i
+
+# target to preprocess a source file
+gui/ReportPanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.i
+.PHONY : gui/ReportPanel.cpp.i
+
+gui/ReportPanel.s: gui/ReportPanel.cpp.s
+.PHONY : gui/ReportPanel.s
+
+# target to generate assembly for a file
+gui/ReportPanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.s
+.PHONY : gui/ReportPanel.cpp.s
+
+gui/SearchSortPanel.obj: gui/SearchSortPanel.cpp.obj
+.PHONY : gui/SearchSortPanel.obj
+
+# target to build an object file
+gui/SearchSortPanel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj
+.PHONY : gui/SearchSortPanel.cpp.obj
+
+gui/SearchSortPanel.i: gui/SearchSortPanel.cpp.i
+.PHONY : gui/SearchSortPanel.i
+
+# target to preprocess a source file
+gui/SearchSortPanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.i
+.PHONY : gui/SearchSortPanel.cpp.i
+
+gui/SearchSortPanel.s: gui/SearchSortPanel.cpp.s
+.PHONY : gui/SearchSortPanel.s
+
+# target to generate assembly for a file
+gui/SearchSortPanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.s
+.PHONY : gui/SearchSortPanel.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -655,6 +703,12 @@ help:
 	@echo ... gui/QueuePanel.obj
 	@echo ... gui/QueuePanel.i
 	@echo ... gui/QueuePanel.s
+	@echo ... gui/ReportPanel.obj
+	@echo ... gui/ReportPanel.i
+	@echo ... gui/ReportPanel.s
+	@echo ... gui/SearchSortPanel.obj
+	@echo ... gui/SearchSortPanel.i
+	@echo ... gui/SearchSortPanel.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

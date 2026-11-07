@@ -4,3 +4,5 @@
 #include "DMHXEJ42XS/moc_PatientDialog.cpp"
 #include "DMHXEJ42XS/moc_PatientPanel.cpp"
 #include "DMHXEJ42XS/moc_QueuePanel.cpp"
+#include "DMHXEJ42XS/moc_ReportPanel.cpp"
+#include "DMHXEJ42XS/moc_SearchSortPanel.cpp"

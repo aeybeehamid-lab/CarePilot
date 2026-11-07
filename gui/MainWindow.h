@@ -14,6 +14,8 @@ namespace carepilot::gui {
 class PatientPanel;
 class AppointmentPanel;
 class QueuePanel;
+class SearchSortPanel;
+class ReportPanel;
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -52,6 +54,8 @@ private:
     PatientPanel* patientPanel_ = nullptr;
     AppointmentPanel* appointmentPanel_ = nullptr;
     QueuePanel* queuePanel_ = nullptr;
+    SearchSortPanel* searchSortPanel_ = nullptr;
+    ReportPanel* reportPanel_ = nullptr;
     QLabel* statsLabel_ = nullptr;
     QAction* undoAction_ = nullptr;
     QTimer* timer_ = nullptr;

@@ -3,6 +3,8 @@
 #include "gui/GuiHelpers.h"
 #include "gui/PatientPanel.h"
 #include "gui/QueuePanel.h"
+#include "gui/ReportPanel.h"
+#include "gui/SearchSortPanel.h"
 #include "utils/ClinicException.h"
 #include "utils/FileHandler.h"
 #include <QAction>
@@ -20,25 +22,20 @@
 
 namespace carepilot::gui {
 
-static QWidget* placeholderTab(const QString& text)
-{
-    auto* label = new QLabel(text);
-    label->setAlignment(Qt::AlignCenter);
-    return label;
-}
-
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
 {
     patientPanel_     = new PatientPanel(clinic_, this);
     appointmentPanel_ = new AppointmentPanel(clinic_, this);
     queuePanel_       = new QueuePanel(clinic_, this);
+    searchSortPanel_  = new SearchSortPanel(clinic_, this);
+    reportPanel_      = new ReportPanel(clinic_, this);
 
     tabs_ = new QTabWidget(this);
     tabs_->addTab(patientPanel_, "Patient Records");
     tabs_->addTab(appointmentPanel_, "Appointments");
     tabs_->addTab(queuePanel_, "Waiting Queue");
-    tabs_->addTab(placeholderTab("Search & Sort - coming in the next step"), "Search && Sort");
-    tabs_->addTab(placeholderTab("Reports - coming in the next step"), "Reports");
+    tabs_->addTab(searchSortPanel_, "Search && Sort");
+    tabs_->addTab(reportPanel_, "Reports");
     setCentralWidget(tabs_);
 
     statsLabel_ = new QLabel(this);
@@ -49,7 +46,8 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
     connect(patientPanel_, &PatientPanel::dataChanged, this, &MainWindow::markDirtyAndRefresh);
     connect(patientPanel_, &PatientPanel::undoRequested, this, &MainWindow::onUndo);
     connect(appointmentPanel_, &AppointmentPanel::dataChanged, this, &MainWindow::markDirtyAndRefresh);
-    connect(queuePanel_, &QueuePanel::queueChanged, this, &MainWindow::refreshAll);  // queue is not saved to file
+    connect(queuePanel_, &QueuePanel::queueChanged, this, &MainWindow::refreshAll);
+    connect(searchSortPanel_, &SearchSortPanel::orderChanged, this, &MainWindow::refreshAll);
 
     // Timer event: once per second refresh waiting times and raise the long-wait alert.
     timer_ = new QTimer(this);
@@ -94,7 +92,7 @@ void MainWindow::createMenus()
     QMenu* editMenu = menuBar()->addMenu("&Edit");
     undoAction_ = addMenuAction(editMenu, "&Undo Last Operation", "Ctrl+Z",
                                 "Reverse the last delete, edit or appointment cancellation", &MainWindow::onUndo);
-    addMenuAction(editMenu, "&Find Patient", "Ctrl+F", "Jump to the patient filter box", &MainWindow::onFind);
+    addMenuAction(editMenu, "&Find Patient", "Ctrl+F", "Go to the Search & Sort tab", &MainWindow::onFind);
 
     QMenu* helpMenu = menuBar()->addMenu("&Help");
     addMenuAction(helpMenu, "&About", "F1", "About CarePilot", &MainWindow::onAbout);
@@ -105,6 +103,8 @@ void MainWindow::refreshAll()
     patientPanel_->refresh();
     appointmentPanel_->refresh();
     queuePanel_->refresh();
+    searchSortPanel_->refresh();
+    reportPanel_->refresh();
 
     const bool canUndo = clinic_.canUndo();
     undoAction_->setEnabled(canUndo);
@@ -252,8 +252,8 @@ void MainWindow::onUndo()
 
 void MainWindow::onFind()
 {
-    tabs_->setCurrentWidget(patientPanel_);
-    patientPanel_->focusFilter();
+    tabs_->setCurrentWidget(searchSortPanel_);
+    searchSortPanel_->focusSearch();
 }
 
 void MainWindow::onAbout()

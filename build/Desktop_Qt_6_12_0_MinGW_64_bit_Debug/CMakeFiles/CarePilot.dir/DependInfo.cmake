@@ -19,6 +19,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp" "CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj.d"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp" "CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj.d"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp" "CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj.d"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.cpp" "CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj.d"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.cpp" "CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj.d"
   "C:/Users/Abdulhamid/Documents/SCAMPS/main.cpp" "CMakeFiles/CarePilot.dir/main.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/main.cpp.obj.d"
   "C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointment.cpp" "CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj.d"
   "C:/Users/Abdulhamid/Documents/SCAMPS/model/ClinicDatabase.cpp" "CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj" "gcc" "CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj.d"

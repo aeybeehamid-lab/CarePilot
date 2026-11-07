@@ -34,7 +34,9 @@
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp",
-				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp"
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.cpp",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.cpp"
 			],
 			"recurse" : true
 		},
@@ -47,7 +49,9 @@
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h",
-				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h"
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.h",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.h"
 			],
 			"recurse" : true
 		},

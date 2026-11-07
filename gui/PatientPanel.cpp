@@ -30,7 +30,7 @@ PatientPanel::PatientPanel(ClinicManager& clinic, QWidget* parent)
     filterEdit_ = new QLineEdit(this);
     filterEdit_->setPlaceholderText("Type a name to filter the table...");
     filterEdit_->setClearButtonEnabled(true);
-    filterEdit_->setToolTip("Filter the list as you type (Ctrl+F jumps here).");
+    filterEdit_->setToolTip("Filter the list as you type.");
 
     addButton_    = new QPushButton("Add Patient", this);
     editButton_   = new QPushButton("Edit", this);

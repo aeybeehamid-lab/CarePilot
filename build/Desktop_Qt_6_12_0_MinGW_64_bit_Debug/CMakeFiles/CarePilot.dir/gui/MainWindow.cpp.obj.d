@@ -408,6 +408,8 @@ CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtGui/QColor \
  C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.h \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/utils/ClinicException.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/utils/FileHandler.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/QAction \

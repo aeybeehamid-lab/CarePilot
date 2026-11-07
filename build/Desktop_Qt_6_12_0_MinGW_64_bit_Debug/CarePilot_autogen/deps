@@ -633,6 +633,10 @@ CarePilot_autogen/timestamp: \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.cpp \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.h \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.cpp \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/main.cpp \
 	C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointable.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointment.cpp \

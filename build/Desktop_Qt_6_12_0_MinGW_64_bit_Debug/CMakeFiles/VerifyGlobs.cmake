@@ -39,6 +39,8 @@ set(OLD_GLOB
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.cpp"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -54,6 +56,8 @@ set(OLD_GLOB
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.h"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
