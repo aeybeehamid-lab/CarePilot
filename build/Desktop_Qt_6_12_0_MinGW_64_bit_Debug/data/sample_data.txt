@@ -1,0 +1,19 @@
+SCAPMS-DATA-V1
+P|General|1|Amina Yusuf|21|08012345678|Headache
+A|1|1|2026-11-02|09:00|Check-up|Completed
+A|2|1|2026-11-06|10:30|Follow-up review|Completed
+A|3|1|2026-11-10|09:00|Lab results|Pending
+P|General|2|Zainab Lawal|30|08023456789|Fever
+A|4|2|2026-11-06|11:00|Fever assessment|Completed
+A|5|2|2026-11-12|14:00|Review|Pending
+P|Emergency|3|Musa Bello|34|08034567890|5|Suspected fracture
+P|FollowUp|4|Grace Okoro|45|07011112222|2026-10-20|Dr. Ade
+A|6|4|2026-11-06|09:30|Blood pressure check|Completed
+A|7|4|2026-11-06|13:00|Medication review|Cancelled
+A|8|4|2026-11-15|10:00|Check-up|Pending
+P|General|5|Bala Musa|12|08045678901|Cough
+A|9|5|2026-11-06|15:00|Cough review|Completed
+P|FollowUp|6|Hauwa Abubakar|28|08056789012|2026-10-28|Dr. Okafor
+A|10|6|2026-11-06|16:00|Wound dressing|Pending
+P|Emergency|7|Ibrahim Sani|52|08067890123|4|Chest pain
+P|General|8|Fatima Garba|19|08078901234|Routine screening
