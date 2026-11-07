@@ -387,6 +387,12 @@
 			null
 		],
 		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.h",
+			"Mu",
+			"DMHXEJ42XS/moc_DashboardPanel.cpp",
+			null
+		],
+		[
 			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h",
 			"Mu",
 			"DMHXEJ42XS/moc_GuiHelpers.cpp",
@@ -595,6 +601,11 @@
 		],
 		[
 			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.cpp",
 			"Mu",
 			null
 		],

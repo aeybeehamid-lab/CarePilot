@@ -145,6 +145,7 @@ void FileHandler::load(ClinicManager& clinic, const std::string& path)
             throw FileException("Line " + std::to_string(lineNo) + ": " + e.what());
         }
     }
+    loaded.database().clearCache();            // loading should not count as "recently accessed"
     clinic = std::move(loaded);                // success: replace the live data
 }
 

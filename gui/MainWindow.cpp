@@ -1,5 +1,6 @@
 #include "gui/MainWindow.h"
 #include "gui/AppointmentPanel.h"
+#include "gui/DashboardPanel.h"
 #include "gui/GuiHelpers.h"
 #include "gui/PatientPanel.h"
 #include "gui/QueuePanel.h"
@@ -24,6 +25,7 @@ namespace carepilot::gui {
 
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
 {
+    dashboardPanel_   = new DashboardPanel(clinic_, this);
     patientPanel_     = new PatientPanel(clinic_, this);
     appointmentPanel_ = new AppointmentPanel(clinic_, this);
     queuePanel_       = new QueuePanel(clinic_, this);
@@ -31,6 +33,7 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
     reportPanel_      = new ReportPanel(clinic_, this);
 
     tabs_ = new QTabWidget(this);
+    tabs_->addTab(dashboardPanel_, "Dashboard");
     tabs_->addTab(patientPanel_, "Patient Records");
     tabs_->addTab(appointmentPanel_, "Appointments");
     tabs_->addTab(queuePanel_, "Waiting Queue");
@@ -48,6 +51,8 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
     connect(appointmentPanel_, &AppointmentPanel::dataChanged, this, &MainWindow::markDirtyAndRefresh);
     connect(queuePanel_, &QueuePanel::queueChanged, this, &MainWindow::refreshAll);
     connect(searchSortPanel_, &SearchSortPanel::orderChanged, this, &MainWindow::refreshAll);
+    connect(dashboardPanel_, &DashboardPanel::appointmentReminder, this,
+               [this](const QString& text) { statusBar()->showMessage(text, 20000); });
 
     // Timer event: once per second refresh waiting times and raise the long-wait alert.
     timer_ = new QTimer(this);
@@ -100,6 +105,7 @@ void MainWindow::createMenus()
 
 void MainWindow::refreshAll()
 {
+    dashboardPanel_->refresh();
     patientPanel_->refresh();
     appointmentPanel_->refresh();
     queuePanel_->refresh();
@@ -136,6 +142,7 @@ void MainWindow::updateStats()
 void MainWindow::onTick()
 {
     queuePanel_->refreshTable();
+    dashboardPanel_->refreshQueueCard();
     updateStats();
 }
 

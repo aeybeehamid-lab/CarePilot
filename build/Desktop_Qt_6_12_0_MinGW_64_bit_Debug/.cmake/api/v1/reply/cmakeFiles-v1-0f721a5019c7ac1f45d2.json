@@ -31,10 +31,13 @@
 			"paths" : 
 			[
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.cpp",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp",
-				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp"
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.cpp",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.cpp"
 			],
 			"recurse" : true
 		},
@@ -43,11 +46,14 @@
 			"paths" : 
 			[
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h",
-				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h"
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.h",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.h"
 			],
 			"recurse" : true
 		},

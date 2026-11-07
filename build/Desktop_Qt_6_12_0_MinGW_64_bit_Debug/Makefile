@@ -323,6 +323,30 @@ gui/AppointmentPanel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.s
 .PHONY : gui/AppointmentPanel.cpp.s
 
+gui/DashboardPanel.obj: gui/DashboardPanel.cpp.obj
+.PHONY : gui/DashboardPanel.obj
+
+# target to build an object file
+gui/DashboardPanel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj
+.PHONY : gui/DashboardPanel.cpp.obj
+
+gui/DashboardPanel.i: gui/DashboardPanel.cpp.i
+.PHONY : gui/DashboardPanel.i
+
+# target to preprocess a source file
+gui/DashboardPanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.i
+.PHONY : gui/DashboardPanel.cpp.i
+
+gui/DashboardPanel.s: gui/DashboardPanel.cpp.s
+.PHONY : gui/DashboardPanel.s
+
+# target to generate assembly for a file
+gui/DashboardPanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.s
+.PHONY : gui/DashboardPanel.cpp.s
+
 gui/MainWindow.obj: gui/MainWindow.cpp.obj
 .PHONY : gui/MainWindow.obj
 
@@ -691,6 +715,9 @@ help:
 	@echo ... gui/AppointmentPanel.obj
 	@echo ... gui/AppointmentPanel.i
 	@echo ... gui/AppointmentPanel.s
+	@echo ... gui/DashboardPanel.obj
+	@echo ... gui/DashboardPanel.i
+	@echo ... gui/DashboardPanel.s
 	@echo ... gui/MainWindow.obj
 	@echo ... gui/MainWindow.i
 	@echo ... gui/MainWindow.s

@@ -33,6 +33,7 @@ public:
     // --- Fixed-size array cache: recently accessed patients (most recent last) ---
     void touch(PatientRecord* patient);
     int cacheCount() const;
+    void clearCache();
     PatientRecord* cachedAt(int slot) const;
 
 private:

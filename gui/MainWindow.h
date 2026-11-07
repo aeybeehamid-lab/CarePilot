@@ -11,6 +11,7 @@ class QTimer;
 
 namespace carepilot::gui {
 
+class DashboardPanel;
 class PatientPanel;
 class AppointmentPanel;
 class QueuePanel;
@@ -51,6 +52,7 @@ private:
 
     ClinicManager clinic_;
     QTabWidget* tabs_ = nullptr;
+    DashboardPanel* dashboardPanel_ = nullptr;
     PatientPanel* patientPanel_ = nullptr;
     AppointmentPanel* appointmentPanel_ = nullptr;
     QueuePanel* queuePanel_ = nullptr;

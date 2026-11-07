@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CarePilot.dir/controller/SortEngine.cpp.obj.d"
   "CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.obj"
   "CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.obj.d"
+  "CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj"
+  "CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj.d"
   "CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj"
   "CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj.d"
   "CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj"

@@ -402,6 +402,9 @@ CMakeFiles/CarePilot.dir/CarePilot_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/q20algorithm.h \
+ C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CarePilot_autogen\DMHXEJ42XS/moc_DashboardPanel.cpp \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QSet \
  C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CarePilot_autogen\DMHXEJ42XS/moc_MainWindow.cpp \
  C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \

@@ -85,6 +85,12 @@ void ClinicDatabase::touch(PatientRecord* patient)
 
 int ClinicDatabase::cacheCount() const { return recentCount_; }
 
+void ClinicDatabase::clearCache()
+{
+    for (int i = 0; i < CACHE_SIZE; ++i) recent_[i] = nullptr;
+    recentCount_ = 0;
+}
+
 PatientRecord* ClinicDatabase::cachedAt(int slot) const
 {
     if (slot < 0 || slot >= recentCount_) return nullptr;

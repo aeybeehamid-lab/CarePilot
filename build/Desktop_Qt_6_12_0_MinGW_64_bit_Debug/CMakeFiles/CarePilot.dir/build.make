@@ -173,11 +173,26 @@ CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Abdulhamid\Documents\SCAMPS\gui\AppointmentPanel.cpp -o CMakeFiles\CarePilot.dir\gui\AppointmentPanel.cpp.s
 
+CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj: CMakeFiles/CarePilot.dir/flags.make
+CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
+CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.cpp
+CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj -MF CMakeFiles\CarePilot.dir\gui\DashboardPanel.cpp.obj.d -o CMakeFiles\CarePilot.dir\gui\DashboardPanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\DashboardPanel.cpp
+
+CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Abdulhamid\Documents\SCAMPS\gui\DashboardPanel.cpp > CMakeFiles\CarePilot.dir\gui\DashboardPanel.cpp.i
+
+CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Abdulhamid\Documents\SCAMPS\gui\DashboardPanel.cpp -o CMakeFiles\CarePilot.dir\gui\DashboardPanel.cpp.s
+
 CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj: CMakeFiles/CarePilot.dir/flags.make
 CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp
 CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj -MF CMakeFiles\CarePilot.dir\gui\MainWindow.cpp.obj.d -o CMakeFiles\CarePilot.dir\gui\MainWindow.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\MainWindow.cpp
 
 CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.i: cmake_force
@@ -192,7 +207,7 @@ CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj: CMakeFiles/CarePilot.dir/fla
 CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp
 CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj -MF CMakeFiles\CarePilot.dir\gui\PatientDialog.cpp.obj.d -o CMakeFiles\CarePilot.dir\gui\PatientDialog.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\PatientDialog.cpp
 
 CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.i: cmake_force
@@ -207,7 +222,7 @@ CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj: CMakeFiles/CarePilot.dir/flag
 CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp
 CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj -MF CMakeFiles\CarePilot.dir\gui\PatientPanel.cpp.obj.d -o CMakeFiles\CarePilot.dir\gui\PatientPanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\PatientPanel.cpp
 
 CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.i: cmake_force
@@ -222,7 +237,7 @@ CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj: CMakeFiles/CarePilot.dir/flags.
 CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp
 CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj -MF CMakeFiles\CarePilot.dir\gui\QueuePanel.cpp.obj.d -o CMakeFiles\CarePilot.dir\gui\QueuePanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\QueuePanel.cpp
 
 CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.i: cmake_force
@@ -237,7 +252,7 @@ CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj: CMakeFiles/CarePilot.dir/flags
 CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/ReportPanel.cpp
 CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.obj -MF CMakeFiles\CarePilot.dir\gui\ReportPanel.cpp.obj.d -o CMakeFiles\CarePilot.dir\gui\ReportPanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\ReportPanel.cpp
 
 CMakeFiles/CarePilot.dir/gui/ReportPanel.cpp.i: cmake_force
@@ -252,7 +267,7 @@ CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj: CMakeFiles/CarePilot.dir/f
 CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/SearchSortPanel.cpp
 CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.obj -MF CMakeFiles\CarePilot.dir\gui\SearchSortPanel.cpp.obj.d -o CMakeFiles\CarePilot.dir\gui\SearchSortPanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\SearchSortPanel.cpp
 
 CMakeFiles/CarePilot.dir/gui/SearchSortPanel.cpp.i: cmake_force
@@ -267,7 +282,7 @@ CMakeFiles/CarePilot.dir/main.cpp.obj: CMakeFiles/CarePilot.dir/flags.make
 CMakeFiles/CarePilot.dir/main.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/main.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/main.cpp
 CMakeFiles/CarePilot.dir/main.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CarePilot.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CarePilot.dir/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/main.cpp.obj -MF CMakeFiles\CarePilot.dir\main.cpp.obj.d -o CMakeFiles\CarePilot.dir\main.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\main.cpp
 
 CMakeFiles/CarePilot.dir/main.cpp.i: cmake_force
@@ -282,7 +297,7 @@ CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj: CMakeFiles/CarePilot.dir/fla
 CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointment.cpp
 CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj -MF CMakeFiles\CarePilot.dir\model\Appointment.cpp.obj.d -o CMakeFiles\CarePilot.dir\model\Appointment.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\Appointment.cpp
 
 CMakeFiles/CarePilot.dir/model/Appointment.cpp.i: cmake_force
@@ -297,7 +312,7 @@ CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj: CMakeFiles/CarePilot.dir/
 CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/ClinicDatabase.cpp
 CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj -MF CMakeFiles\CarePilot.dir\model\ClinicDatabase.cpp.obj.d -o CMakeFiles\CarePilot.dir\model\ClinicDatabase.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\ClinicDatabase.cpp
 
 CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.i: cmake_force
@@ -312,7 +327,7 @@ CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj: CMakeFiles/CarePilot.di
 CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/EmergencyPatient.cpp
 CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj -MF CMakeFiles\CarePilot.dir\model\EmergencyPatient.cpp.obj.d -o CMakeFiles\CarePilot.dir\model\EmergencyPatient.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\EmergencyPatient.cpp
 
 CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.i: cmake_force
@@ -327,7 +342,7 @@ CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj: CMakeFiles/CarePilot.dir
 CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/FollowUpPatient.cpp
 CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj -MF CMakeFiles\CarePilot.dir\model\FollowUpPatient.cpp.obj.d -o CMakeFiles\CarePilot.dir\model\FollowUpPatient.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\FollowUpPatient.cpp
 
 CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.i: cmake_force
@@ -342,7 +357,7 @@ CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj: CMakeFiles/CarePilot.dir/
 CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/GeneralPatient.cpp
 CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj -MF CMakeFiles\CarePilot.dir\model\GeneralPatient.cpp.obj.d -o CMakeFiles\CarePilot.dir\model\GeneralPatient.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\GeneralPatient.cpp
 
 CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.i: cmake_force
@@ -357,7 +372,7 @@ CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj: CMakeFiles/CarePilot.dir/f
 CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/PatientRecord.cpp
 CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj -MF CMakeFiles\CarePilot.dir\model\PatientRecord.cpp.obj.d -o CMakeFiles\CarePilot.dir\model\PatientRecord.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\PatientRecord.cpp
 
 CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.i: cmake_force
@@ -372,7 +387,7 @@ CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj: CMakeFiles/CarePilot.dir/fla
 CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj: CMakeFiles/CarePilot.dir/includes_CXX.rsp
 CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/utils/FileHandler.cpp
 CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj: CMakeFiles/CarePilot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj -MF CMakeFiles\CarePilot.dir\utils\FileHandler.cpp.obj.d -o CMakeFiles\CarePilot.dir\utils\FileHandler.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\utils\FileHandler.cpp
 
 CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.i: cmake_force
@@ -392,6 +407,7 @@ CarePilot_OBJECTS = \
 "CMakeFiles/CarePilot.dir/controller/SearchEngine.cpp.obj" \
 "CMakeFiles/CarePilot.dir/controller/SortEngine.cpp.obj" \
 "CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.obj" \
+"CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj" \
 "CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj" \
 "CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj" \
 "CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj" \
@@ -417,6 +433,7 @@ CarePilot.exe: CMakeFiles/CarePilot.dir/controller/ReportGenerator.cpp.obj
 CarePilot.exe: CMakeFiles/CarePilot.dir/controller/SearchEngine.cpp.obj
 CarePilot.exe: CMakeFiles/CarePilot.dir/controller/SortEngine.cpp.obj
 CarePilot.exe: CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.obj
+CarePilot.exe: CMakeFiles/CarePilot.dir/gui/DashboardPanel.cpp.obj
 CarePilot.exe: CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj
 CarePilot.exe: CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj
 CarePilot.exe: CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj
@@ -439,7 +456,7 @@ CarePilot.exe: C:/Qt/6.12.0/mingw_64/lib/libQt6EntryPoint.a
 CarePilot.exe: CMakeFiles/CarePilot.dir/linkLibs.rsp
 CarePilot.exe: CMakeFiles/CarePilot.dir/objects1.rsp
 CarePilot.exe: CMakeFiles/CarePilot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable CarePilot.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable CarePilot.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CarePilot.dir\link.txt --verbose=$(VERBOSE)
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Abdulhamid/Documents/SCAMPS/data C:/Users/Abdulhamid/Documents/SCAMPS/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/data
 

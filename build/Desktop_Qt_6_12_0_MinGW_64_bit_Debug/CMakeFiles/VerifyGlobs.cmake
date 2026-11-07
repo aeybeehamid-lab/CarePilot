@@ -35,6 +35,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Abdulhamid/Documents/SCAMPS/gui/*.cpp")
 set(OLD_GLOB
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp"
@@ -51,6 +52,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Abdulhamid/Documents/SCAMPS/gui/*.h")
 set(OLD_GLOB
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/DashboardPanel.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h"
