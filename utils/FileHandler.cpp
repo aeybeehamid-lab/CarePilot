@@ -8,9 +8,9 @@
 #include <memory>
 #include <vector>
 
-namespace scapms {
+namespace carepilot {
 
-static const char* FILE_HEADER = "SCAPMS-DATA-V1";
+static const char* FILE_HEADER = "CAREPILOT-DATA-V1";
 
 // '|' separates fields, so it (and line breaks) must not appear inside text.
 static std::string clean(const std::string& s)
@@ -127,7 +127,7 @@ void FileHandler::load(ClinicManager& clinic, const std::string& path)
         throw FileException("The file is empty.");
     stripCR(line);
     if (line != FILE_HEADER)
-        throw FileException("This is not a valid SCAPMS data file.");
+        throw FileException("This is not a valid CarePilot data file.");
 
     ClinicManager loaded;                      // build into a temporary first
     int lineNo = 1;
@@ -148,4 +148,4 @@ void FileHandler::load(ClinicManager& clinic, const std::string& path)
     clinic = std::move(loaded);                // success: replace the live data
 }
 
-} // namespace scapms
+} // namespace carepilot

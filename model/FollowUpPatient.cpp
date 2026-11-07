@@ -1,7 +1,7 @@
 #include "model/FollowUpPatient.h"
 #include "utils/ClinicException.h"
 
-namespace scapms {
+namespace carepilot {
 
 FollowUpPatient::FollowUpPatient(int id, const std::string& name, int age,
                                  const std::string& contact, const std::string& previousVisitDate,
@@ -49,4 +49,4 @@ void FollowUpPatient::setDoctorName(const std::string& doctor)
     doctorName_ = doctor;
 }
 
-} // namespace scapms
+} // namespace carepilot

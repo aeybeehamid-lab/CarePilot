@@ -2,7 +2,7 @@
 #include "utils/ClinicException.h"
 #include "utils/StringUtils.h"
 
-namespace scapms {
+namespace carepilot {
 
 int SearchEngine::linearSearchById(const PatientList& list, int id)
 {
@@ -62,4 +62,4 @@ std::vector<int> SearchEngine::searchByCategory(const PatientList& list, const s
     return results;
 }
 
-} // namespace scapms
+} // namespace carepilot

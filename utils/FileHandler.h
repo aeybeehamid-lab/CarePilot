@@ -2,7 +2,7 @@
 #include "controller/ClinicManager.h"
 #include <string>
 
-namespace scapms {
+namespace carepilot {
 
 class FileHandler {
 public:
@@ -10,4 +10,4 @@ public:
     static void load(ClinicManager& clinic, const std::string& path);   // all-or-nothing
 };
 
-} // namespace scapms
+} // namespace carepilot

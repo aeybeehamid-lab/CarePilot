@@ -188,7 +188,7 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=C:/Users/Abdulhamid/Documents/SCAMPS/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=SCAPMS
+CMAKE_PROJECT_NAME:STATIC=CarePilot
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -287,6 +287,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+CarePilot_BINARY_DIR:STATIC=C:/Users/Abdulhamid/Documents/SCAMPS/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug
+
+//Value Computed by CMake
+CarePilot_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+CarePilot_SOURCE_DIR:STATIC=C:/Users/Abdulhamid/Documents/SCAMPS
 
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched

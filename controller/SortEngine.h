@@ -2,7 +2,7 @@
 #include "model/ClinicDatabase.h"
 #include <string>
 
-namespace scapms {
+namespace carepilot {
 
 enum class SortAlgorithm { Selection, Insertion, Merge };
 
@@ -19,4 +19,4 @@ public:
     static std::string explain(SortAlgorithm algorithm);   // why each algorithm suits a situation
 };
 
-} // namespace scapms
+} // namespace carepilot

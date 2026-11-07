@@ -158,11 +158,26 @@ CMakeFiles/SCAPMS.dir/controller/SortEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SCAPMS.dir/controller/SortEngine.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Abdulhamid\Documents\SCAMPS\controller\SortEngine.cpp -o CMakeFiles\SCAPMS.dir\controller\SortEngine.cpp.s
 
+CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj: CMakeFiles/SCAPMS.dir/flags.make
+CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
+CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp
+CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj -MF CMakeFiles\SCAPMS.dir\gui\AppointmentPanel.cpp.obj.d -o CMakeFiles\SCAPMS.dir\gui\AppointmentPanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\AppointmentPanel.cpp
+
+CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Abdulhamid\Documents\SCAMPS\gui\AppointmentPanel.cpp > CMakeFiles\SCAPMS.dir\gui\AppointmentPanel.cpp.i
+
+CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Abdulhamid\Documents\SCAMPS\gui\AppointmentPanel.cpp -o CMakeFiles\SCAPMS.dir\gui\AppointmentPanel.cpp.s
+
 CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj: CMakeFiles/SCAPMS.dir/flags.make
 CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp
 CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj -MF CMakeFiles\SCAPMS.dir\gui\MainWindow.cpp.obj.d -o CMakeFiles\SCAPMS.dir\gui\MainWindow.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\MainWindow.cpp
 
 CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj: CMakeFiles/SCAPMS.dir/flags.mak
 CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp
 CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj -MF CMakeFiles\SCAPMS.dir\gui\PatientDialog.cpp.obj.d -o CMakeFiles\SCAPMS.dir\gui\PatientDialog.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\PatientDialog.cpp
 
 CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.i: cmake_force
@@ -192,7 +207,7 @@ CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj: CMakeFiles/SCAPMS.dir/flags.make
 CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp
 CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj -MF CMakeFiles\SCAPMS.dir\gui\PatientPanel.cpp.obj.d -o CMakeFiles\SCAPMS.dir\gui\PatientPanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\PatientPanel.cpp
 
 CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.i: cmake_force
@@ -203,11 +218,26 @@ CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Abdulhamid\Documents\SCAMPS\gui\PatientPanel.cpp -o CMakeFiles\SCAPMS.dir\gui\PatientPanel.cpp.s
 
+CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj: CMakeFiles/SCAPMS.dir/flags.make
+CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
+CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp
+CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj -MF CMakeFiles\SCAPMS.dir\gui\QueuePanel.cpp.obj.d -o CMakeFiles\SCAPMS.dir\gui\QueuePanel.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\gui\QueuePanel.cpp
+
+CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Abdulhamid\Documents\SCAMPS\gui\QueuePanel.cpp > CMakeFiles\SCAPMS.dir\gui\QueuePanel.cpp.i
+
+CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Abdulhamid\Documents\SCAMPS\gui\QueuePanel.cpp -o CMakeFiles\SCAPMS.dir\gui\QueuePanel.cpp.s
+
 CMakeFiles/SCAPMS.dir/main.cpp.obj: CMakeFiles/SCAPMS.dir/flags.make
 CMakeFiles/SCAPMS.dir/main.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/main.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/main.cpp
 CMakeFiles/SCAPMS.dir/main.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SCAPMS.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SCAPMS.dir/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/main.cpp.obj -MF CMakeFiles\SCAPMS.dir\main.cpp.obj.d -o CMakeFiles\SCAPMS.dir\main.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\main.cpp
 
 CMakeFiles/SCAPMS.dir/main.cpp.i: cmake_force
@@ -222,7 +252,7 @@ CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj: CMakeFiles/SCAPMS.dir/flags.mak
 CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointment.cpp
 CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj -MF CMakeFiles\SCAPMS.dir\model\Appointment.cpp.obj.d -o CMakeFiles\SCAPMS.dir\model\Appointment.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\Appointment.cpp
 
 CMakeFiles/SCAPMS.dir/model/Appointment.cpp.i: cmake_force
@@ -237,7 +267,7 @@ CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj: CMakeFiles/SCAPMS.dir/flags.
 CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/ClinicDatabase.cpp
 CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj -MF CMakeFiles\SCAPMS.dir\model\ClinicDatabase.cpp.obj.d -o CMakeFiles\SCAPMS.dir\model\ClinicDatabase.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\ClinicDatabase.cpp
 
 CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.i: cmake_force
@@ -252,7 +282,7 @@ CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj: CMakeFiles/SCAPMS.dir/flag
 CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/EmergencyPatient.cpp
 CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj -MF CMakeFiles\SCAPMS.dir\model\EmergencyPatient.cpp.obj.d -o CMakeFiles\SCAPMS.dir\model\EmergencyPatient.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\EmergencyPatient.cpp
 
 CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.i: cmake_force
@@ -267,7 +297,7 @@ CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj: CMakeFiles/SCAPMS.dir/flags
 CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/FollowUpPatient.cpp
 CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj -MF CMakeFiles\SCAPMS.dir\model\FollowUpPatient.cpp.obj.d -o CMakeFiles\SCAPMS.dir\model\FollowUpPatient.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\FollowUpPatient.cpp
 
 CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.i: cmake_force
@@ -282,7 +312,7 @@ CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj: CMakeFiles/SCAPMS.dir/flags.
 CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/GeneralPatient.cpp
 CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj -MF CMakeFiles\SCAPMS.dir\model\GeneralPatient.cpp.obj.d -o CMakeFiles\SCAPMS.dir\model\GeneralPatient.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\GeneralPatient.cpp
 
 CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.i: cmake_force
@@ -297,7 +327,7 @@ CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj: CMakeFiles/SCAPMS.dir/flags.m
 CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/model/PatientRecord.cpp
 CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj -MF CMakeFiles\SCAPMS.dir\model\PatientRecord.cpp.obj.d -o CMakeFiles\SCAPMS.dir\model\PatientRecord.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\model\PatientRecord.cpp
 
 CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.i: cmake_force
@@ -312,7 +342,7 @@ CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj: CMakeFiles/SCAPMS.dir/flags.mak
 CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj: CMakeFiles/SCAPMS.dir/includes_CXX.rsp
 CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj: C:/Users/Abdulhamid/Documents/SCAMPS/utils/FileHandler.cpp
 CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj: CMakeFiles/SCAPMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj -MF CMakeFiles\SCAPMS.dir\utils\FileHandler.cpp.obj.d -o CMakeFiles\SCAPMS.dir\utils\FileHandler.cpp.obj -c C:\Users\Abdulhamid\Documents\SCAMPS\utils\FileHandler.cpp
 
 CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.i: cmake_force
@@ -331,9 +361,11 @@ SCAPMS_OBJECTS = \
 "CMakeFiles/SCAPMS.dir/controller/ReportGenerator.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/controller/SearchEngine.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/controller/SortEngine.cpp.obj" \
+"CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj" \
+"CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/main.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj" \
 "CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj" \
@@ -352,9 +384,11 @@ SCAPMS.exe: CMakeFiles/SCAPMS.dir/controller/PatientProcessor.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/controller/ReportGenerator.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/controller/SearchEngine.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/controller/SortEngine.cpp.obj
+SCAPMS.exe: CMakeFiles/SCAPMS.dir/gui/AppointmentPanel.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj
+SCAPMS.exe: CMakeFiles/SCAPMS.dir/gui/QueuePanel.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/main.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj
@@ -371,7 +405,7 @@ SCAPMS.exe: C:/Qt/6.12.0/mingw_64/lib/libQt6EntryPoint.a
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/linkLibs.rsp
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/objects1.rsp
 SCAPMS.exe: CMakeFiles/SCAPMS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable SCAPMS.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable SCAPMS.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SCAPMS.dir\link.txt --verbose=$(VERBOSE)
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Abdulhamid/Documents/SCAMPS/data C:/Users/Abdulhamid/Documents/SCAMPS/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/data
 

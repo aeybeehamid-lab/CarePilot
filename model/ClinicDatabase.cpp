@@ -1,7 +1,7 @@
 #include "model/ClinicDatabase.h"
 #include "utils/ClinicException.h"
 
-namespace scapms {
+namespace carepilot {
 
 ClinicDatabase::ClinicDatabase()
     : sortedField_(SortField::None), recentCount_(0)
@@ -103,4 +103,4 @@ void ClinicDatabase::removeFromCache(const PatientRecord* patient)
     }
 }
 
-} // namespace scapms
+} // namespace carepilot

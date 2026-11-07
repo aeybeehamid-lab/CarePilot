@@ -12,7 +12,7 @@
 #include <QStackedWidget>
 #include <QVBoxLayout>
 
-namespace scapms::gui {
+namespace carepilot::gui {
 
 static int parseWholeNumber(const QString& text, const QString& label)
 {
@@ -205,4 +205,4 @@ void PatientDialog::applyForm(PatientRecord& patient, const PatientForm& f)
     }
 }
 
-} // namespace scapms::gui
+} // namespace carepilot::gui

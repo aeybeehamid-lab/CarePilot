@@ -1,5 +1,8 @@
 #include "gui/MainWindow.h"
+#include "gui/AppointmentPanel.h"
+#include "gui/GuiHelpers.h"
 #include "gui/PatientPanel.h"
+#include "gui/QueuePanel.h"
 #include "utils/ClinicException.h"
 #include "utils/FileHandler.h"
 #include <QAction>
@@ -13,8 +16,9 @@
 #include <QMessageBox>
 #include <QStatusBar>
 #include <QTabWidget>
+#include <QTimer>
 
-namespace scapms::gui {
+namespace carepilot::gui {
 
 static QWidget* placeholderTab(const QString& text)
 {
@@ -25,12 +29,14 @@ static QWidget* placeholderTab(const QString& text)
 
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
 {
-    patientPanel_ = new PatientPanel(clinic_, this);
+    patientPanel_     = new PatientPanel(clinic_, this);
+    appointmentPanel_ = new AppointmentPanel(clinic_, this);
+    queuePanel_       = new QueuePanel(clinic_, this);
 
     tabs_ = new QTabWidget(this);
     tabs_->addTab(patientPanel_, "Patient Records");
-    tabs_->addTab(placeholderTab("Appointments - coming in the next step"), "Appointments");
-    tabs_->addTab(placeholderTab("Waiting Queue - coming in the next step"), "Waiting Queue");
+    tabs_->addTab(appointmentPanel_, "Appointments");
+    tabs_->addTab(queuePanel_, "Waiting Queue");
     tabs_->addTab(placeholderTab("Search & Sort - coming in the next step"), "Search && Sort");
     tabs_->addTab(placeholderTab("Reports - coming in the next step"), "Reports");
     setCentralWidget(tabs_);
@@ -42,8 +48,15 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
 
     connect(patientPanel_, &PatientPanel::dataChanged, this, &MainWindow::markDirtyAndRefresh);
     connect(patientPanel_, &PatientPanel::undoRequested, this, &MainWindow::onUndo);
+    connect(appointmentPanel_, &AppointmentPanel::dataChanged, this, &MainWindow::markDirtyAndRefresh);
+    connect(queuePanel_, &QueuePanel::queueChanged, this, &MainWindow::refreshAll);  // queue is not saved to file
 
-    // Start with the sample data if it is available.
+    // Timer event: once per second refresh waiting times and raise the long-wait alert.
+    timer_ = new QTimer(this);
+    timer_->setInterval(1000);
+    connect(timer_, &QTimer::timeout, this, &MainWindow::onTick);
+    timer_->start();
+
     const QString sample = QCoreApplication::applicationDirPath() + "/data/sample_data.txt";
     if (QFileInfo::exists(sample)) {
         try {
@@ -84,12 +97,14 @@ void MainWindow::createMenus()
     addMenuAction(editMenu, "&Find Patient", "Ctrl+F", "Jump to the patient filter box", &MainWindow::onFind);
 
     QMenu* helpMenu = menuBar()->addMenu("&Help");
-    addMenuAction(helpMenu, "&About", "F1", "About SCAPMS", &MainWindow::onAbout);
+    addMenuAction(helpMenu, "&About", "F1", "About CarePilot", &MainWindow::onAbout);
 }
 
 void MainWindow::refreshAll()
 {
     patientPanel_->refresh();
+    appointmentPanel_->refresh();
+    queuePanel_->refresh();
 
     const bool canUndo = clinic_.canUndo();
     undoAction_->setEnabled(canUndo);
@@ -97,10 +112,31 @@ void MainWindow::refreshAll()
         ? "&Undo: " + QString::fromStdString(clinic_.undoDescription())
         : QString("&Undo Last Operation"));
 
-    statsLabel_->setText(QString("Patients: %1   |   Waiting in queue: %2")
-                             .arg(static_cast<int>(clinic_.database().size()))
-                             .arg(static_cast<int>(clinic_.queueSize())));
+    updateStats();
     updateTitle();
+}
+
+void MainWindow::updateStats()
+{
+    const size_t waiting = clinic_.queueSize();
+    const long longest = clinic_.longestWaitSeconds();
+
+    QString text = QString("Patients: %1   |   Waiting in queue: %2")
+                       .arg(static_cast<int>(clinic_.database().size()))
+                       .arg(static_cast<int>(waiting));
+    if (waiting > 0)
+        text += "   |   Longest wait: " + formatWait(longest);
+
+    const bool alert = waiting > 0 && longest >= WAIT_ALERT_SECONDS;
+    if (alert) text += "   ALERT: patient waiting too long!";
+    statsLabel_->setText(text);
+    statsLabel_->setStyleSheet(alert ? "color:#c62828; font-weight:bold;" : "");
+}
+
+void MainWindow::onTick()
+{
+    queuePanel_->refreshTable();
+    updateStats();
 }
 
 void MainWindow::updateTitle()
@@ -108,7 +144,7 @@ void MainWindow::updateTitle()
     const QString name = currentFile_.isEmpty() ? QString("Untitled")
                                                 : QFileInfo(currentFile_).fileName();
     setWindowTitle(name + (dirty_ ? "*" : "") +
-                   " - SCAPMS | Smart Clinic Appointment & Patient Management System");
+                   " - CarePilot | Smart Clinic Appointment & Patient Management System");
 }
 
 void MainWindow::markDirtyAndRefresh()
@@ -149,7 +185,7 @@ void MainWindow::onLoad()
 {
     if (!confirmDiscardChanges()) return;
     const QString path = QFileDialog::getOpenFileName(this, "Load clinic data", QString(),
-                                                      "SCAPMS data (*.txt);;All files (*)");
+                                                      "CarePilot data (*.txt);;All files (*)");
     if (path.isEmpty()) return;
 
     try {
@@ -192,7 +228,7 @@ bool MainWindow::save()
 bool MainWindow::saveAs()
 {
     const QString path = QFileDialog::getSaveFileName(this, "Save clinic data", "clinic_data.txt",
-                                                      "SCAPMS data (*.txt);;All files (*)");
+                                                      "CarePilot data (*.txt);;All files (*)");
     if (path.isEmpty()) return false;
     return saveTo(path);
 }
@@ -222,9 +258,9 @@ void MainWindow::onFind()
 
 void MainWindow::onAbout()
 {
-    QMessageBox::about(this, "About SCAPMS",
-        "<b>SCAPMS</b><br>Smart Clinic Appointment &amp; Patient Management System<br><br>"
+    QMessageBox::about(this, "About CarePilot",
+        "<b>CarePilot</b><br>Smart Clinic Appointment &amp; Patient Management System<br><br>"
         "COS202 Programming II - Lab Assessment Project");
 }
 
-} // namespace scapms::gui
+} // namespace carepilot::gui

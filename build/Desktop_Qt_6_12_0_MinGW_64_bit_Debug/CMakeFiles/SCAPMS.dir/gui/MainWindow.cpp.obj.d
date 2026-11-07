@@ -401,8 +401,13 @@ CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/QString \
- C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QChar \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/QColor \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/utils/ClinicException.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/utils/FileHandler.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/QAction \
@@ -492,4 +497,6 @@ CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstatusbar.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/QTabWidget
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QTabWidget \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qtimer.h

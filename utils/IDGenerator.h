@@ -1,6 +1,6 @@
 #pragma once
 
-namespace scapms {
+namespace carepilot {
 
 class IDGenerator {
 public:
@@ -13,4 +13,4 @@ private:
     int next_;
 };
 
-} // namespace scapms
+} // namespace carepilot

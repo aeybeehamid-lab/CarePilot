@@ -2,7 +2,7 @@
 #include "model/ClinicDatabase.h"
 #include <string>
 
-namespace scapms {
+namespace carepilot {
 
 class ReportGenerator {
 public:
@@ -13,4 +13,4 @@ public:
     static std::string todayDate();
 };
 
-} // namespace scapms
+} // namespace carepilot

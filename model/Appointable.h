@@ -1,7 +1,7 @@
 #pragma once
 #include "model/Appointment.h"
 
-namespace scapms {
+namespace carepilot {
 
 class Appointable {
 public:
@@ -11,4 +11,4 @@ public:
     virtual int  pendingAppointmentCount() const = 0;
 };
 
-} // namespace scapms
+} // namespace carepilot

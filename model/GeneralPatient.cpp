@@ -1,7 +1,7 @@
 #include "model/GeneralPatient.h"
 #include "utils/ClinicException.h"
 
-namespace scapms {
+namespace carepilot {
 
 GeneralPatient::GeneralPatient(int id, const std::string& name, int age,
                                const std::string& contact, const std::string& reasonForVisit)
@@ -33,4 +33,4 @@ void GeneralPatient::setReasonForVisit(const std::string& reason)
     reasonForVisit_ = reason;
 }
 
-} // namespace scapms
+} // namespace carepilot

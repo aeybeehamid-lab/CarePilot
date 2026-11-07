@@ -7,7 +7,7 @@ class QLineEdit;
 class QPushButton;
 class QTableWidget;
 
-namespace scapms::gui {
+namespace carepilot::gui {
 
 class PatientPanel : public QWidget {
     Q_OBJECT
@@ -40,4 +40,4 @@ private:
     QLabel* countLabel_;
 };
 
-} // namespace scapms::gui
+} // namespace carepilot::gui

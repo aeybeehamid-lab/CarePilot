@@ -2,7 +2,7 @@
 #include <cctype>
 #include <string>
 
-namespace scapms {
+namespace carepilot {
 
 inline std::string toLower(std::string s)
 {
@@ -33,4 +33,4 @@ inline bool containsIgnoreCase(const std::string& text, const std::string& key)
     return false;
 }
 
-} // namespace scapms
+} // namespace carepilot

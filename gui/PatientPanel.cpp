@@ -13,7 +13,7 @@
 #include <QTableWidget>
 #include <QVBoxLayout>
 
-namespace scapms::gui {
+namespace carepilot::gui {
 
 static QColor rowColor(int priority)
 {
@@ -217,4 +217,4 @@ void PatientPanel::onDelete()
     }
 }
 
-} // namespace scapms::gui
+} // namespace carepilot::gui

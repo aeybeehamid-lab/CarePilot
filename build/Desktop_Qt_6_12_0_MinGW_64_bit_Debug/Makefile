@@ -117,74 +117,74 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SCAPMS
+# Target rules for targets named CarePilot
 
 # Build rule for target.
-SCAPMS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SCAPMS
-.PHONY : SCAPMS
+CarePilot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CarePilot
+.PHONY : CarePilot
 
 # fast build rule for target.
-SCAPMS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/build
-.PHONY : SCAPMS/fast
+CarePilot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/build
+.PHONY : CarePilot/fast
 
 #=============================================================================
-# Target rules for targets named SCAPMS_autogen_timestamp_deps
+# Target rules for targets named CarePilot_autogen_timestamp_deps
 
 # Build rule for target.
-SCAPMS_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SCAPMS_autogen_timestamp_deps
-.PHONY : SCAPMS_autogen_timestamp_deps
+CarePilot_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CarePilot_autogen_timestamp_deps
+.PHONY : CarePilot_autogen_timestamp_deps
 
 # fast build rule for target.
-SCAPMS_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS_autogen_timestamp_deps.dir\build.make CMakeFiles/SCAPMS_autogen_timestamp_deps.dir/build
-.PHONY : SCAPMS_autogen_timestamp_deps/fast
+CarePilot_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot_autogen_timestamp_deps.dir\build.make CMakeFiles/CarePilot_autogen_timestamp_deps.dir/build
+.PHONY : CarePilot_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named SCAPMS_autogen
+# Target rules for targets named CarePilot_autogen
 
 # Build rule for target.
-SCAPMS_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SCAPMS_autogen
-.PHONY : SCAPMS_autogen
+CarePilot_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CarePilot_autogen
+.PHONY : CarePilot_autogen
 
 # fast build rule for target.
-SCAPMS_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS_autogen.dir\build.make CMakeFiles/SCAPMS_autogen.dir/build
-.PHONY : SCAPMS_autogen/fast
+CarePilot_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot_autogen.dir\build.make CMakeFiles/CarePilot_autogen.dir/build
+.PHONY : CarePilot_autogen/fast
 
-SCAPMS_autogen/mocs_compilation.obj: SCAPMS_autogen/mocs_compilation.cpp.obj
-.PHONY : SCAPMS_autogen/mocs_compilation.obj
+CarePilot_autogen/mocs_compilation.obj: CarePilot_autogen/mocs_compilation.cpp.obj
+.PHONY : CarePilot_autogen/mocs_compilation.obj
 
 # target to build an object file
-SCAPMS_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/SCAPMS_autogen/mocs_compilation.cpp.obj
-.PHONY : SCAPMS_autogen/mocs_compilation.cpp.obj
+CarePilot_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/CarePilot_autogen/mocs_compilation.cpp.obj
+.PHONY : CarePilot_autogen/mocs_compilation.cpp.obj
 
-SCAPMS_autogen/mocs_compilation.i: SCAPMS_autogen/mocs_compilation.cpp.i
-.PHONY : SCAPMS_autogen/mocs_compilation.i
+CarePilot_autogen/mocs_compilation.i: CarePilot_autogen/mocs_compilation.cpp.i
+.PHONY : CarePilot_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-SCAPMS_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/SCAPMS_autogen/mocs_compilation.cpp.i
-.PHONY : SCAPMS_autogen/mocs_compilation.cpp.i
+CarePilot_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/CarePilot_autogen/mocs_compilation.cpp.i
+.PHONY : CarePilot_autogen/mocs_compilation.cpp.i
 
-SCAPMS_autogen/mocs_compilation.s: SCAPMS_autogen/mocs_compilation.cpp.s
-.PHONY : SCAPMS_autogen/mocs_compilation.s
+CarePilot_autogen/mocs_compilation.s: CarePilot_autogen/mocs_compilation.cpp.s
+.PHONY : CarePilot_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-SCAPMS_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/SCAPMS_autogen/mocs_compilation.cpp.s
-.PHONY : SCAPMS_autogen/mocs_compilation.cpp.s
+CarePilot_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/CarePilot_autogen/mocs_compilation.cpp.s
+.PHONY : CarePilot_autogen/mocs_compilation.cpp.s
 
 controller/ClinicManager.obj: controller/ClinicManager.cpp.obj
 .PHONY : controller/ClinicManager.obj
 
 # target to build an object file
 controller/ClinicManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/ClinicManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/ClinicManager.cpp.obj
 .PHONY : controller/ClinicManager.cpp.obj
 
 controller/ClinicManager.i: controller/ClinicManager.cpp.i
@@ -192,7 +192,7 @@ controller/ClinicManager.i: controller/ClinicManager.cpp.i
 
 # target to preprocess a source file
 controller/ClinicManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/ClinicManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/ClinicManager.cpp.i
 .PHONY : controller/ClinicManager.cpp.i
 
 controller/ClinicManager.s: controller/ClinicManager.cpp.s
@@ -200,7 +200,7 @@ controller/ClinicManager.s: controller/ClinicManager.cpp.s
 
 # target to generate assembly for a file
 controller/ClinicManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/ClinicManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/ClinicManager.cpp.s
 .PHONY : controller/ClinicManager.cpp.s
 
 controller/PatientProcessor.obj: controller/PatientProcessor.cpp.obj
@@ -208,7 +208,7 @@ controller/PatientProcessor.obj: controller/PatientProcessor.cpp.obj
 
 # target to build an object file
 controller/PatientProcessor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/PatientProcessor.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/PatientProcessor.cpp.obj
 .PHONY : controller/PatientProcessor.cpp.obj
 
 controller/PatientProcessor.i: controller/PatientProcessor.cpp.i
@@ -216,7 +216,7 @@ controller/PatientProcessor.i: controller/PatientProcessor.cpp.i
 
 # target to preprocess a source file
 controller/PatientProcessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/PatientProcessor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/PatientProcessor.cpp.i
 .PHONY : controller/PatientProcessor.cpp.i
 
 controller/PatientProcessor.s: controller/PatientProcessor.cpp.s
@@ -224,7 +224,7 @@ controller/PatientProcessor.s: controller/PatientProcessor.cpp.s
 
 # target to generate assembly for a file
 controller/PatientProcessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/PatientProcessor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/PatientProcessor.cpp.s
 .PHONY : controller/PatientProcessor.cpp.s
 
 controller/ReportGenerator.obj: controller/ReportGenerator.cpp.obj
@@ -232,7 +232,7 @@ controller/ReportGenerator.obj: controller/ReportGenerator.cpp.obj
 
 # target to build an object file
 controller/ReportGenerator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/ReportGenerator.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/ReportGenerator.cpp.obj
 .PHONY : controller/ReportGenerator.cpp.obj
 
 controller/ReportGenerator.i: controller/ReportGenerator.cpp.i
@@ -240,7 +240,7 @@ controller/ReportGenerator.i: controller/ReportGenerator.cpp.i
 
 # target to preprocess a source file
 controller/ReportGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/ReportGenerator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/ReportGenerator.cpp.i
 .PHONY : controller/ReportGenerator.cpp.i
 
 controller/ReportGenerator.s: controller/ReportGenerator.cpp.s
@@ -248,7 +248,7 @@ controller/ReportGenerator.s: controller/ReportGenerator.cpp.s
 
 # target to generate assembly for a file
 controller/ReportGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/ReportGenerator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/ReportGenerator.cpp.s
 .PHONY : controller/ReportGenerator.cpp.s
 
 controller/SearchEngine.obj: controller/SearchEngine.cpp.obj
@@ -256,7 +256,7 @@ controller/SearchEngine.obj: controller/SearchEngine.cpp.obj
 
 # target to build an object file
 controller/SearchEngine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/SearchEngine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/SearchEngine.cpp.obj
 .PHONY : controller/SearchEngine.cpp.obj
 
 controller/SearchEngine.i: controller/SearchEngine.cpp.i
@@ -264,7 +264,7 @@ controller/SearchEngine.i: controller/SearchEngine.cpp.i
 
 # target to preprocess a source file
 controller/SearchEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/SearchEngine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/SearchEngine.cpp.i
 .PHONY : controller/SearchEngine.cpp.i
 
 controller/SearchEngine.s: controller/SearchEngine.cpp.s
@@ -272,7 +272,7 @@ controller/SearchEngine.s: controller/SearchEngine.cpp.s
 
 # target to generate assembly for a file
 controller/SearchEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/SearchEngine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/SearchEngine.cpp.s
 .PHONY : controller/SearchEngine.cpp.s
 
 controller/SortEngine.obj: controller/SortEngine.cpp.obj
@@ -280,7 +280,7 @@ controller/SortEngine.obj: controller/SortEngine.cpp.obj
 
 # target to build an object file
 controller/SortEngine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/SortEngine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/SortEngine.cpp.obj
 .PHONY : controller/SortEngine.cpp.obj
 
 controller/SortEngine.i: controller/SortEngine.cpp.i
@@ -288,7 +288,7 @@ controller/SortEngine.i: controller/SortEngine.cpp.i
 
 # target to preprocess a source file
 controller/SortEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/SortEngine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/SortEngine.cpp.i
 .PHONY : controller/SortEngine.cpp.i
 
 controller/SortEngine.s: controller/SortEngine.cpp.s
@@ -296,15 +296,39 @@ controller/SortEngine.s: controller/SortEngine.cpp.s
 
 # target to generate assembly for a file
 controller/SortEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/controller/SortEngine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/controller/SortEngine.cpp.s
 .PHONY : controller/SortEngine.cpp.s
+
+gui/AppointmentPanel.obj: gui/AppointmentPanel.cpp.obj
+.PHONY : gui/AppointmentPanel.obj
+
+# target to build an object file
+gui/AppointmentPanel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.obj
+.PHONY : gui/AppointmentPanel.cpp.obj
+
+gui/AppointmentPanel.i: gui/AppointmentPanel.cpp.i
+.PHONY : gui/AppointmentPanel.i
+
+# target to preprocess a source file
+gui/AppointmentPanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.i
+.PHONY : gui/AppointmentPanel.cpp.i
+
+gui/AppointmentPanel.s: gui/AppointmentPanel.cpp.s
+.PHONY : gui/AppointmentPanel.s
+
+# target to generate assembly for a file
+gui/AppointmentPanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/AppointmentPanel.cpp.s
+.PHONY : gui/AppointmentPanel.cpp.s
 
 gui/MainWindow.obj: gui/MainWindow.cpp.obj
 .PHONY : gui/MainWindow.obj
 
 # target to build an object file
 gui/MainWindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.obj
 .PHONY : gui/MainWindow.cpp.obj
 
 gui/MainWindow.i: gui/MainWindow.cpp.i
@@ -312,7 +336,7 @@ gui/MainWindow.i: gui/MainWindow.cpp.i
 
 # target to preprocess a source file
 gui/MainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.i
 .PHONY : gui/MainWindow.cpp.i
 
 gui/MainWindow.s: gui/MainWindow.cpp.s
@@ -320,7 +344,7 @@ gui/MainWindow.s: gui/MainWindow.cpp.s
 
 # target to generate assembly for a file
 gui/MainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/MainWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/MainWindow.cpp.s
 .PHONY : gui/MainWindow.cpp.s
 
 gui/PatientDialog.obj: gui/PatientDialog.cpp.obj
@@ -328,7 +352,7 @@ gui/PatientDialog.obj: gui/PatientDialog.cpp.obj
 
 # target to build an object file
 gui/PatientDialog.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.obj
 .PHONY : gui/PatientDialog.cpp.obj
 
 gui/PatientDialog.i: gui/PatientDialog.cpp.i
@@ -336,7 +360,7 @@ gui/PatientDialog.i: gui/PatientDialog.cpp.i
 
 # target to preprocess a source file
 gui/PatientDialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.i
 .PHONY : gui/PatientDialog.cpp.i
 
 gui/PatientDialog.s: gui/PatientDialog.cpp.s
@@ -344,7 +368,7 @@ gui/PatientDialog.s: gui/PatientDialog.cpp.s
 
 # target to generate assembly for a file
 gui/PatientDialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/PatientDialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/PatientDialog.cpp.s
 .PHONY : gui/PatientDialog.cpp.s
 
 gui/PatientPanel.obj: gui/PatientPanel.cpp.obj
@@ -352,7 +376,7 @@ gui/PatientPanel.obj: gui/PatientPanel.cpp.obj
 
 # target to build an object file
 gui/PatientPanel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.obj
 .PHONY : gui/PatientPanel.cpp.obj
 
 gui/PatientPanel.i: gui/PatientPanel.cpp.i
@@ -360,7 +384,7 @@ gui/PatientPanel.i: gui/PatientPanel.cpp.i
 
 # target to preprocess a source file
 gui/PatientPanel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.i
 .PHONY : gui/PatientPanel.cpp.i
 
 gui/PatientPanel.s: gui/PatientPanel.cpp.s
@@ -368,15 +392,39 @@ gui/PatientPanel.s: gui/PatientPanel.cpp.s
 
 # target to generate assembly for a file
 gui/PatientPanel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/gui/PatientPanel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/PatientPanel.cpp.s
 .PHONY : gui/PatientPanel.cpp.s
+
+gui/QueuePanel.obj: gui/QueuePanel.cpp.obj
+.PHONY : gui/QueuePanel.obj
+
+# target to build an object file
+gui/QueuePanel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.obj
+.PHONY : gui/QueuePanel.cpp.obj
+
+gui/QueuePanel.i: gui/QueuePanel.cpp.i
+.PHONY : gui/QueuePanel.i
+
+# target to preprocess a source file
+gui/QueuePanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.i
+.PHONY : gui/QueuePanel.cpp.i
+
+gui/QueuePanel.s: gui/QueuePanel.cpp.s
+.PHONY : gui/QueuePanel.s
+
+# target to generate assembly for a file
+gui/QueuePanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/gui/QueuePanel.cpp.s
+.PHONY : gui/QueuePanel.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -384,7 +432,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -392,7 +440,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 model/Appointment.obj: model/Appointment.cpp.obj
@@ -400,7 +448,7 @@ model/Appointment.obj: model/Appointment.cpp.obj
 
 # target to build an object file
 model/Appointment.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/Appointment.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/Appointment.cpp.obj
 .PHONY : model/Appointment.cpp.obj
 
 model/Appointment.i: model/Appointment.cpp.i
@@ -408,7 +456,7 @@ model/Appointment.i: model/Appointment.cpp.i
 
 # target to preprocess a source file
 model/Appointment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/Appointment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/Appointment.cpp.i
 .PHONY : model/Appointment.cpp.i
 
 model/Appointment.s: model/Appointment.cpp.s
@@ -416,7 +464,7 @@ model/Appointment.s: model/Appointment.cpp.s
 
 # target to generate assembly for a file
 model/Appointment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/Appointment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/Appointment.cpp.s
 .PHONY : model/Appointment.cpp.s
 
 model/ClinicDatabase.obj: model/ClinicDatabase.cpp.obj
@@ -424,7 +472,7 @@ model/ClinicDatabase.obj: model/ClinicDatabase.cpp.obj
 
 # target to build an object file
 model/ClinicDatabase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.obj
 .PHONY : model/ClinicDatabase.cpp.obj
 
 model/ClinicDatabase.i: model/ClinicDatabase.cpp.i
@@ -432,7 +480,7 @@ model/ClinicDatabase.i: model/ClinicDatabase.cpp.i
 
 # target to preprocess a source file
 model/ClinicDatabase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.i
 .PHONY : model/ClinicDatabase.cpp.i
 
 model/ClinicDatabase.s: model/ClinicDatabase.cpp.s
@@ -440,7 +488,7 @@ model/ClinicDatabase.s: model/ClinicDatabase.cpp.s
 
 # target to generate assembly for a file
 model/ClinicDatabase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/ClinicDatabase.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/ClinicDatabase.cpp.s
 .PHONY : model/ClinicDatabase.cpp.s
 
 model/EmergencyPatient.obj: model/EmergencyPatient.cpp.obj
@@ -448,7 +496,7 @@ model/EmergencyPatient.obj: model/EmergencyPatient.cpp.obj
 
 # target to build an object file
 model/EmergencyPatient.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.obj
 .PHONY : model/EmergencyPatient.cpp.obj
 
 model/EmergencyPatient.i: model/EmergencyPatient.cpp.i
@@ -456,7 +504,7 @@ model/EmergencyPatient.i: model/EmergencyPatient.cpp.i
 
 # target to preprocess a source file
 model/EmergencyPatient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.i
 .PHONY : model/EmergencyPatient.cpp.i
 
 model/EmergencyPatient.s: model/EmergencyPatient.cpp.s
@@ -464,7 +512,7 @@ model/EmergencyPatient.s: model/EmergencyPatient.cpp.s
 
 # target to generate assembly for a file
 model/EmergencyPatient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/EmergencyPatient.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/EmergencyPatient.cpp.s
 .PHONY : model/EmergencyPatient.cpp.s
 
 model/FollowUpPatient.obj: model/FollowUpPatient.cpp.obj
@@ -472,7 +520,7 @@ model/FollowUpPatient.obj: model/FollowUpPatient.cpp.obj
 
 # target to build an object file
 model/FollowUpPatient.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.obj
 .PHONY : model/FollowUpPatient.cpp.obj
 
 model/FollowUpPatient.i: model/FollowUpPatient.cpp.i
@@ -480,7 +528,7 @@ model/FollowUpPatient.i: model/FollowUpPatient.cpp.i
 
 # target to preprocess a source file
 model/FollowUpPatient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.i
 .PHONY : model/FollowUpPatient.cpp.i
 
 model/FollowUpPatient.s: model/FollowUpPatient.cpp.s
@@ -488,7 +536,7 @@ model/FollowUpPatient.s: model/FollowUpPatient.cpp.s
 
 # target to generate assembly for a file
 model/FollowUpPatient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/FollowUpPatient.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/FollowUpPatient.cpp.s
 .PHONY : model/FollowUpPatient.cpp.s
 
 model/GeneralPatient.obj: model/GeneralPatient.cpp.obj
@@ -496,7 +544,7 @@ model/GeneralPatient.obj: model/GeneralPatient.cpp.obj
 
 # target to build an object file
 model/GeneralPatient.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.obj
 .PHONY : model/GeneralPatient.cpp.obj
 
 model/GeneralPatient.i: model/GeneralPatient.cpp.i
@@ -504,7 +552,7 @@ model/GeneralPatient.i: model/GeneralPatient.cpp.i
 
 # target to preprocess a source file
 model/GeneralPatient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.i
 .PHONY : model/GeneralPatient.cpp.i
 
 model/GeneralPatient.s: model/GeneralPatient.cpp.s
@@ -512,7 +560,7 @@ model/GeneralPatient.s: model/GeneralPatient.cpp.s
 
 # target to generate assembly for a file
 model/GeneralPatient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/GeneralPatient.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/GeneralPatient.cpp.s
 .PHONY : model/GeneralPatient.cpp.s
 
 model/PatientRecord.obj: model/PatientRecord.cpp.obj
@@ -520,7 +568,7 @@ model/PatientRecord.obj: model/PatientRecord.cpp.obj
 
 # target to build an object file
 model/PatientRecord.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.obj
 .PHONY : model/PatientRecord.cpp.obj
 
 model/PatientRecord.i: model/PatientRecord.cpp.i
@@ -528,7 +576,7 @@ model/PatientRecord.i: model/PatientRecord.cpp.i
 
 # target to preprocess a source file
 model/PatientRecord.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.i
 .PHONY : model/PatientRecord.cpp.i
 
 model/PatientRecord.s: model/PatientRecord.cpp.s
@@ -536,7 +584,7 @@ model/PatientRecord.s: model/PatientRecord.cpp.s
 
 # target to generate assembly for a file
 model/PatientRecord.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/model/PatientRecord.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/model/PatientRecord.cpp.s
 .PHONY : model/PatientRecord.cpp.s
 
 utils/FileHandler.obj: utils/FileHandler.cpp.obj
@@ -544,7 +592,7 @@ utils/FileHandler.obj: utils/FileHandler.cpp.obj
 
 # target to build an object file
 utils/FileHandler.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.obj
 .PHONY : utils/FileHandler.cpp.obj
 
 utils/FileHandler.i: utils/FileHandler.cpp.i
@@ -552,7 +600,7 @@ utils/FileHandler.i: utils/FileHandler.cpp.i
 
 # target to preprocess a source file
 utils/FileHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.i
 .PHONY : utils/FileHandler.cpp.i
 
 utils/FileHandler.s: utils/FileHandler.cpp.s
@@ -560,7 +608,7 @@ utils/FileHandler.s: utils/FileHandler.cpp.s
 
 # target to generate assembly for a file
 utils/FileHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SCAPMS.dir\build.make CMakeFiles/SCAPMS.dir/utils/FileHandler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarePilot.dir\build.make CMakeFiles/CarePilot.dir/utils/FileHandler.cpp.s
 .PHONY : utils/FileHandler.cpp.s
 
 # Help Target
@@ -571,12 +619,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SCAPMS_autogen
-	@echo ... SCAPMS_autogen_timestamp_deps
-	@echo ... SCAPMS
-	@echo ... SCAPMS_autogen/mocs_compilation.obj
-	@echo ... SCAPMS_autogen/mocs_compilation.i
-	@echo ... SCAPMS_autogen/mocs_compilation.s
+	@echo ... CarePilot_autogen
+	@echo ... CarePilot_autogen_timestamp_deps
+	@echo ... CarePilot
+	@echo ... CarePilot_autogen/mocs_compilation.obj
+	@echo ... CarePilot_autogen/mocs_compilation.i
+	@echo ... CarePilot_autogen/mocs_compilation.s
 	@echo ... controller/ClinicManager.obj
 	@echo ... controller/ClinicManager.i
 	@echo ... controller/ClinicManager.s
@@ -592,6 +640,9 @@ help:
 	@echo ... controller/SortEngine.obj
 	@echo ... controller/SortEngine.i
 	@echo ... controller/SortEngine.s
+	@echo ... gui/AppointmentPanel.obj
+	@echo ... gui/AppointmentPanel.i
+	@echo ... gui/AppointmentPanel.s
 	@echo ... gui/MainWindow.obj
 	@echo ... gui/MainWindow.i
 	@echo ... gui/MainWindow.s
@@ -601,6 +652,9 @@ help:
 	@echo ... gui/PatientPanel.obj
 	@echo ... gui/PatientPanel.i
 	@echo ... gui/PatientPanel.s
+	@echo ... gui/QueuePanel.obj
+	@echo ... gui/QueuePanel.i
+	@echo ... gui/QueuePanel.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

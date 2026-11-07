@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-namespace scapms {
+namespace carepilot {
 
 class SearchEngine {
 public:
@@ -22,4 +22,4 @@ public:
     static std::vector<int> searchByCategory(const PatientList& list, const std::string& category);
 };
 
-} // namespace scapms
+} // namespace carepilot

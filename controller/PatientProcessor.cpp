@@ -2,7 +2,7 @@
 #include "model/Appointable.h"
 #include <sstream>
 
-namespace scapms {
+namespace carepilot {
 
 std::string processPatient(const PatientRecord& p)
 {
@@ -20,4 +20,4 @@ std::string processPatient(const PatientRecord& p)
     return out.str();
 }
 
-} // namespace scapms
+} // namespace carepilot

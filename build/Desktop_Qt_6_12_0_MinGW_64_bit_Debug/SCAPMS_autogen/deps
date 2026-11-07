@@ -622,12 +622,17 @@ SCAPMS_autogen/timestamp: \
 	C:/Users/Abdulhamid/Documents/SCAMPS/controller/SortEngine.cpp \
 	C:/Users/Abdulhamid/Documents/SCAMPS/controller/SortEngine.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/controller/UndoOperation.h \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp \
 	C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp \
+	C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/main.cpp \
 	C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointable.h \
 	C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointment.cpp \

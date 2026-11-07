@@ -4,7 +4,7 @@
 #include "utils/ClinicException.h"
 #include <utility>
 
-namespace scapms {
+namespace carepilot {
 
 ClinicManager::ClinicManager() : patientIds_(1), appointmentIds_(1) {}
 
@@ -217,4 +217,4 @@ std::string ClinicManager::undoLastOperation()
     return "Undone: " + op.description;
 }
 
-} // namespace scapms
+} // namespace carepilot

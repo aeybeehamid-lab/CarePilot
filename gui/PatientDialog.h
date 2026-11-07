@@ -8,7 +8,7 @@ class QComboBox;
 class QLineEdit;
 class QStackedWidget;
 
-namespace scapms::gui {
+namespace carepilot::gui {
 
 // Plain data collected from the dialog's fields.
 struct PatientForm {
@@ -63,4 +63,4 @@ private:
     QLineEdit* doctorEdit_;
 };
 
-} // namespace scapms::gui
+} // namespace carepilot::gui

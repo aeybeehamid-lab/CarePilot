@@ -1047,7 +1047,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "SCAPMS"
+			"value" : "CarePilot"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1500,6 +1500,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "CarePilot_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Abdulhamid/Documents/SCAMPS/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug"
+		},
+		{
+			"name" : "CarePilot_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "CarePilot_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Abdulhamid/Documents/SCAMPS"
 		},
 		{
 			"name" : "HAVE_STDATOMIC",

@@ -1,7 +1,7 @@
 #pragma once
 #include "model/PatientRecord.h"
 
-namespace scapms {
+namespace carepilot {
 
 class EmergencyPatient : public PatientRecord {
 public:
@@ -25,4 +25,4 @@ private:
     std::string triageNote_;
 };
 
-} // namespace scapms
+} // namespace carepilot

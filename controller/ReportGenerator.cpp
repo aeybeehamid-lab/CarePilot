@@ -5,7 +5,7 @@
 #include <sstream>
 #include <vector>
 
-namespace scapms {
+namespace carepilot {
 
 std::string ReportGenerator::todayDate()
 {
@@ -116,4 +116,4 @@ std::string ReportGenerator::dailySummary(const ClinicDatabase& db, const std::s
     return out.str();
 }
 
-} // namespace scapms
+} // namespace carepilot

@@ -30,9 +30,11 @@
 			"expression" : "C:/Users/Abdulhamid/Documents/SCAMPS/gui/*.cpp",
 			"paths" : 
 			[
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp",
-				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp"
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp"
 			],
 			"recurse" : true
 		},
@@ -40,9 +42,12 @@
 			"expression" : "C:/Users/Abdulhamid/Documents/SCAMPS/gui/*.h",
 			"paths" : 
 			[
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h",
 				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h",
-				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h"
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h",
+				"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h"
 			],
 			"recurse" : true
 		},

@@ -3,7 +3,7 @@
 #include "utils/StringUtils.h"
 #include <utility>
 
-namespace scapms {
+namespace carepilot {
 
 bool SortEngine::lessThan(const PatientRecord& a, const PatientRecord& b, SortField field)
 {
@@ -110,4 +110,4 @@ std::string SortEngine::explain(SortAlgorithm algorithm)
     return "";
 }
 
-} // namespace scapms
+} // namespace carepilot

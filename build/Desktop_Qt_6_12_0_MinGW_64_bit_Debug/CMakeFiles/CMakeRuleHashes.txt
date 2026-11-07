@@ -1,3 +1,4 @@
 # Hashes of file build rules.
-fd7310c1992983063f46c70dfa8e4c82 CMakeFiles/SCAPMS_autogen
+fd7310c1992983063f46c70dfa8e4c82 CMakeFiles/CarePilot_autogen
+aadb04031812bd283b28d26e666b0f4b CarePilot_autogen/timestamp
 75ca5abdcd8e13029e47f405df68eb4c SCAPMS_autogen/timestamp

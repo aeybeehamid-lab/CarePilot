@@ -2,7 +2,7 @@
 #include "utils/ClinicException.h"
 #include <cctype>
 
-namespace scapms {
+namespace carepilot {
 
 static bool allDigits(const std::string& s, size_t from, size_t len)
 {
@@ -79,4 +79,4 @@ const std::string& Appointment::reason() const { return reason_; }
 AppointmentStatus Appointment::status() const { return status_; }
 void Appointment::setStatus(AppointmentStatus s) { status_ = s; }
 
-} // namespace scapms
+} // namespace carepilot

@@ -2,7 +2,7 @@
 #include "utils/ClinicException.h"
 #include <cctype>
 
-namespace scapms {
+namespace carepilot {
 
 static bool isBlank(const std::string& s)
 {
@@ -96,4 +96,4 @@ bool PatientRecord::completeAppointment(int appointmentId)
     return false;
 }
 
-} // namespace scapms
+} // namespace carepilot

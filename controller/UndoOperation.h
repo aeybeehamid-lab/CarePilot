@@ -3,7 +3,7 @@
 #include <memory>
 #include <string>
 
-namespace scapms {
+namespace carepilot {
 
 enum class UndoType {
     DeletePatient,      // undo: put the deleted patient back
@@ -16,4 +16,4 @@ struct UndoOperation {
     std::string description;                   // shown to the user
 };
 
-} // namespace scapms
+} // namespace carepilot

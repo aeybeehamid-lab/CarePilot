@@ -2,7 +2,7 @@
 #include "model/PatientRecord.h"
 #include "model/Appointable.h"
 
-namespace scapms {
+namespace carepilot {
 
 class GeneralPatient : public PatientRecord, public Appointable {
 public:
@@ -27,4 +27,4 @@ private:
     std::string reasonForVisit_;
 };
 
-} // namespace scapms
+} // namespace carepilot

@@ -4,7 +4,7 @@
 #include <memory>
 #include <vector>
 
-namespace scapms {
+namespace carepilot {
 
 using PatientList = std::vector<std::unique_ptr<PatientRecord>>;
 
@@ -44,4 +44,4 @@ private:
     int recentCount_;
 };
 
-} // namespace scapms
+} // namespace carepilot

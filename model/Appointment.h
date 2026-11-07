@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace scapms {
+namespace carepilot {
 
 enum class AppointmentStatus { Pending, Completed, Cancelled };
 
@@ -33,4 +33,4 @@ private:
     AppointmentStatus status_;
 };
 
-} // namespace scapms
+} // namespace carepilot

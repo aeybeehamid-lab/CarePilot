@@ -29,7 +29,7 @@
 					[
 						0
 					],
-					"name" : "SCAPMS",
+					"name" : "CarePilot",
 					"targetIndexes" : 
 					[
 						0,
@@ -42,23 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "SCAPMS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SCAPMS-Debug-0f507d0f0826434b77cd.json",
-					"name" : "SCAPMS",
+					"id" : "CarePilot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarePilot-Debug-423e0b1449ee03e60da5.json",
+					"name" : "CarePilot",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SCAPMS_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SCAPMS_autogen-Debug-91cee8f3ce57bb21c0bb.json",
-					"name" : "SCAPMS_autogen",
+					"id" : "CarePilot_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarePilot_autogen-Debug-45871ce9b5abb9c6e07a.json",
+					"name" : "CarePilot_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SCAPMS_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SCAPMS_autogen_timestamp_deps-Debug-e60087d384474a573e1a.json",
-					"name" : "SCAPMS_autogen_timestamp_deps",
+					"id" : "CarePilot_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarePilot_autogen_timestamp_deps-Debug-1b4d09b7a152a1893c69.json",
+					"name" : "CarePilot_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
 			]

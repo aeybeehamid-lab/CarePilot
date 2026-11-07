@@ -2,7 +2,7 @@
 #include <stdexcept>
 #include <string>
 
-namespace scapms {
+namespace carepilot {
 
 class ClinicException : public std::runtime_error {
 public:
@@ -16,4 +16,4 @@ class FileException               : public ClinicException { public: using Clini
 class InvalidSearchException      : public ClinicException { public: using ClinicException::ClinicException; };
 class PatientNotFoundException    : public ClinicException { public: using ClinicException::ClinicException; };
 
-} // namespace scapms
+} // namespace carepilot

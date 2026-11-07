@@ -34,9 +34,11 @@ endif()
 # SOURCES at CMakeLists.txt:10 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Abdulhamid/Documents/SCAMPS/gui/*.cpp")
 set(OLD_GLOB
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.cpp"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -46,9 +48,12 @@ endif()
 # HEADERS at CMakeLists.txt:12 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Abdulhamid/Documents/SCAMPS/gui/*.h")
 set(OLD_GLOB
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h"
   "C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h"
+  "C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

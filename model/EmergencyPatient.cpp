@@ -1,7 +1,7 @@
 #include "model/EmergencyPatient.h"
 #include "utils/ClinicException.h"
 
-namespace scapms {
+namespace carepilot {
 
 static void validateSeverity(int s)
 {
@@ -40,4 +40,4 @@ bool EmergencyPatient::isCritical() const { return severity_ >= 4; }
 void EmergencyPatient::setSeverity(int severity) { validateSeverity(severity); severity_ = severity; }
 void EmergencyPatient::setTriageNote(const std::string& note) { triageNote_ = note; }
 
-} // namespace scapms
+} // namespace carepilot

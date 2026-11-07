@@ -17,12 +17,12 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "SCAPMS_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "CarePilot_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "SCAPMS_autogen::@6890427a1f51a3e7e1df",
+	"id" : "CarePilot_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "SCAPMS_autogen",
+	"name" : "CarePilot_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -51,19 +51,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/SCAPMS_autogen",
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/CarePilot_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/SCAPMS_autogen.rule",
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/CarePilot_autogen.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/SCAPMS_autogen/timestamp.rule",
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CarePilot_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -48,7 +48,9 @@ template <> constexpr inline auto scapms::gui::MainWindow::qt_create_metaobjectd
         "onUndo",
         "onFind",
         "onAbout",
-        "markDirtyAndRefresh"
+        "onTick",
+        "markDirtyAndRefresh",
+        "refreshAll"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -68,8 +70,12 @@ template <> constexpr inline auto scapms::gui::MainWindow::qt_create_metaobjectd
         QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onAbout'
         QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'markDirtyAndRefresh'
+        // Slot 'onTick'
         QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'markDirtyAndRefresh'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'refreshAll'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -101,7 +107,9 @@ void scapms::gui::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call 
         case 5: _t->onUndo(); break;
         case 6: _t->onFind(); break;
         case 7: _t->onAbout(); break;
-        case 8: _t->markDirtyAndRefresh(); break;
+        case 8: _t->onTick(); break;
+        case 9: _t->markDirtyAndRefresh(); break;
+        case 10: _t->refreshAll(); break;
         default: ;
         }
     }
@@ -127,14 +135,14 @@ int scapms::gui::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 9)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 11;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 11)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 9;
+        _id -= 11;
     }
     return _id;
 }

@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-namespace scapms {
+namespace carepilot {
 
 class PatientRecord {
 public:
@@ -48,4 +48,4 @@ private:
     std::vector<Appointment> appointments_;
 };
 
-} // namespace scapms
+} // namespace carepilot

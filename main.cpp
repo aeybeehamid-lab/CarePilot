@@ -4,10 +4,10 @@
 int main(int argc, char* argv[])
 {
     QApplication app(argc, argv);
-    QApplication::setApplicationName("SCAPMS");
+    QApplication::setApplicationName("CarePilot");
     QApplication::setStyle("Fusion");
 
-    scapms::gui::MainWindow window;
+    carepilot::gui::MainWindow window;
     window.resize(1150, 700);
     window.show();
     return app.exec();

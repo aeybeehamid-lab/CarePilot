@@ -7,10 +7,13 @@ class QAction;
 class QLabel;
 class QMenu;
 class QTabWidget;
+class QTimer;
 
-namespace scapms::gui {
+namespace carepilot::gui {
 
 class PatientPanel;
+class AppointmentPanel;
+class QueuePanel;
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -29,13 +32,15 @@ private slots:
     void onUndo();
     void onFind();
     void onAbout();
+    void onTick();
     void markDirtyAndRefresh();
+    void refreshAll();
 
 private:
     void createMenus();
     QAction* addMenuAction(QMenu* menu, const QString& text, const QString& shortcut,
                            const QString& tip, void (MainWindow::*slot)());
-    void refreshAll();
+    void updateStats();
     void updateTitle();
     bool save();
     bool saveAs();
@@ -45,10 +50,13 @@ private:
     ClinicManager clinic_;
     QTabWidget* tabs_ = nullptr;
     PatientPanel* patientPanel_ = nullptr;
+    AppointmentPanel* appointmentPanel_ = nullptr;
+    QueuePanel* queuePanel_ = nullptr;
     QLabel* statsLabel_ = nullptr;
     QAction* undoAction_ = nullptr;
+    QTimer* timer_ = nullptr;
     QString currentFile_;
     bool dirty_ = false;
 };
 
-} // namespace scapms::gui
+} // namespace carepilot::gui

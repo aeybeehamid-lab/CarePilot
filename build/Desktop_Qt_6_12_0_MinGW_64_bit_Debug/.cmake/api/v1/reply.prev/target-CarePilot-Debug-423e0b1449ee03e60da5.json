@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SCAPMS.exe"
+			"path" : "CarePilot.exe"
 		},
 		{
-			"path" : "SCAPMS.pdb"
+			"path" : "CarePilot.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -331,7 +331,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/Abdulhamid/Documents/SCAMPS/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/SCAPMS_autogen/include"
+					"path" : "C:/Users/Abdulhamid/Documents/SCAMPS/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CarePilot_autogen/include"
 				},
 				{
 					"backtrace" : 40,
@@ -391,7 +391,9 @@
 				13,
 				14,
 				15,
-				16
+				16,
+				17,
+				18
 			]
 		}
 	],
@@ -399,13 +401,13 @@
 	[
 		{
 			"backtrace" : 0,
-			"id" : "SCAPMS_autogen::@6890427a1f51a3e7e1df"
+			"id" : "CarePilot_autogen::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "SCAPMS_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "CarePilot_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "SCAPMS::@6890427a1f51a3e7e1df",
+	"id" : "CarePilot::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -485,8 +487,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "SCAPMS",
-	"nameOnDisk" : "SCAPMS.exe",
+	"name" : "CarePilot",
+	"nameOnDisk" : "CarePilot.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -514,15 +516,15 @@
 				13,
 				14,
 				15,
-				16
+				16,
+				17,
+				18
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				17,
-				18,
 				19,
 				20,
 				21,
@@ -540,21 +542,26 @@
 				33,
 				34,
 				35,
-				36
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				37
+				42
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				38
+				43
 			]
 		}
 	],
@@ -564,7 +571,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/SCAPMS_autogen/mocs_compilation.cpp",
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CarePilot_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -600,6 +607,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "gui/AppointmentPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "gui/MainWindow.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -613,6 +626,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "gui/PatientPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gui/QueuePanel.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -695,6 +714,16 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "gui/AppointmentPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gui/GuiHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "gui/MainWindow.h",
 			"sourceGroupIndex" : 1
 		},
@@ -706,6 +735,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "gui/PatientPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gui/QueuePanel.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -766,13 +800,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/SCAPMS_autogen/timestamp",
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CarePilot_autogen/timestamp",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/SCAPMS_autogen/timestamp.rule",
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CarePilot_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

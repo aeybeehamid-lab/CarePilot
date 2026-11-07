@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\CarePilot.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\CarePilot.dir/objects.a @CMakeFiles\CarePilot.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\CarePilot.dir/objects.a -Wl,--no-whole-archive -o CarePilot.exe -Wl,--out-implib,libCarePilot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CarePilot.dir\linkLibs.rsp

@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 
-namespace scapms {
+namespace carepilot {
 
 struct QueueEntry {
     int patientId;
@@ -63,4 +63,4 @@ private:
     std::stack<UndoOperation> undo_;
 };
 
-} // namespace scapms
+} // namespace carepilot

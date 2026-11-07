@@ -381,6 +381,18 @@
 			null
 		],
 		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h",
+			"Mu",
+			"DMHXEJ42XS/moc_AppointmentPanel.cpp",
+			null
+		],
+		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/GuiHelpers.h",
+			"Mu",
+			"DMHXEJ42XS/moc_GuiHelpers.cpp",
+			null
+		],
+		[
 			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h",
 			"Mu",
 			"DMHXEJ42XS/moc_MainWindow.cpp",
@@ -396,6 +408,12 @@
 			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h",
 			"Mu",
 			"DMHXEJ42XS/moc_PatientPanel.cpp",
+			null
+		],
+		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h",
+			"Mu",
+			"DMHXEJ42XS/moc_QueuePanel.cpp",
 			null
 		],
 		[
@@ -563,6 +581,11 @@
 			"Mu",
 			null
 		],
+		[
+			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.cpp",
+			"Mu",
+			null
+		],
 		[ "C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.cpp", "Mu", null ],
 		[
 			"C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.cpp",
@@ -574,6 +597,7 @@
 			"Mu",
 			null
 		],
+		[ "C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.cpp", "Mu", null ],
 		[ "C:/Users/Abdulhamid/Documents/SCAMPS/main.cpp", "Mu", null ],
 		[
 			"C:/Users/Abdulhamid/Documents/SCAMPS/model/Appointment.cpp",

@@ -1,7 +1,7 @@
 CMakeFiles/SCAPMS.dir/SCAPMS_autogen/mocs_compilation.cpp.obj: \
  C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\SCAPMS_autogen\mocs_compilation.cpp \
- C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\SCAPMS_autogen\DMHXEJ42XS/moc_MainWindow.cpp \
- C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h \
+ C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\SCAPMS_autogen\DMHXEJ42XS/moc_AppointmentPanel.cpp \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/AppointmentPanel.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/controller/ClinicManager.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/controller/UndoOperation.h \
  C:/Users/Abdulhamid/Documents/SCAMPS/model/PatientRecord.h \
@@ -173,8 +173,8 @@ CMakeFiles/SCAPMS.dir/SCAPMS_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stack \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_stack.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qglobal.h \
@@ -256,7 +256,6 @@ CMakeFiles/SCAPMS.dir/SCAPMS_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qtguiexports.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qwindowdefs.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qobjectdefs.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qnamespace.h \
@@ -400,15 +399,20 @@ CMakeFiles/SCAPMS.dir/SCAPMS_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Qt/6.12.0/mingw_64/include/QtCore/QString \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/q20algorithm.h \
+ C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\SCAPMS_autogen\DMHXEJ42XS/moc_MainWindow.cpp \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/MainWindow.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QString \
  C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\SCAPMS_autogen\DMHXEJ42XS/moc_PatientDialog.cpp \
  C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientDialog.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
  C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\SCAPMS_autogen\DMHXEJ42XS/moc_PatientPanel.cpp \
  C:/Users/Abdulhamid/Documents/SCAMPS/gui/PatientPanel.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget
+ C:\Users\Abdulhamid\Documents\SCAMPS\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\SCAPMS_autogen\DMHXEJ42XS/moc_QueuePanel.cpp \
+ C:/Users/Abdulhamid/Documents/SCAMPS/gui/QueuePanel.h
